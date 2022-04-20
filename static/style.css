@@ -78,6 +78,14 @@ input, select, button {
 .container{
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
+  width: auto;
   margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  padding: 30px;
 }
